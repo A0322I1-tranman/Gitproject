@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .redline{
+            background-color: orange;
+           text-align: center;
+        }
+        .label{
+            color: blue;
+        }
+        .hobby{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+<form method="get" action="Taoformdongian.html">
+ <table>
+    <tr>
+           <td class="redline"  colspan="4" style="color: white" >SỞ THÍCH CỦA BẠN</td>
+    </tr>
+    <tr>
+        <td class="label" for="txtName">Họ và tên</td>
+        <td>
+            <input name="Họ và tên" type="text" id="txtName"/>
+        </td>
+    </tr>
+    <tr>
+        <td class="label" for="txtEmail">Email</td>
+        <td>
+            <input name="Email" type="text" id="txtEmail"/>
+        </td>
+    </tr>
+    <tr>
+        <td class="label" for="txtSt">Sở thích</td>
+
+         <td class="hobby" id="txtSt">
+             <input type="checkbox" name="hobby"/> Thể thao
+             <input type="checkbox" name="hobby"/> Âm nhạc
+             <input type="checkbox" name="hobby"/> Đọc sách <br>
+             <input type="checkbox" name="hobby"/> Lướt web
+             <input type="checkbox" name="hobby"/> Chơi game
+             <input type="checkbox" name="hobby"/> Điện ảnh <br>
+             <input type="checkbox" name="hobby"/> Thể thao
+         </td>
+    </tr>
+     <tr>
+         <td colspan="4" align="center" >
+          <input type="submit" value="Gửi thông tin">
+          <input type="reset" value="Nhập lại">
+         </td>
+
+     </tr>
+
+  </table>
+</form>
+
+</body>
+</html>
