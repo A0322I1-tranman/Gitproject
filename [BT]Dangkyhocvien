@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .redline{
+            background-color: aliceblue;
+            text-align: left;
+
+        }
+        .label {
+            color: blue;
+        }
+        .ground{
+            background-color: #ced4da;
+        }
+
+    </style>
+</head>
+<body >
+<form method="get" action="Dangkyhocvien.html"  >
+    <table style="background-color: #EEE8AA">
+        <tr>
+            <td class="redline"  colspan="4" style="color: blue" ><b>ĐĂNG KÝ HỌC VIÊN</b></td>
+        </tr>
+        <tr>
+            <td class="label" for="txtName">Họ và tên</td>
+            <td>
+                <input name="Họ và tên" type="text" id="txtName"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="label" for="txtNgày sinh">Ngày sinh</td>
+            <td>
+                <input name="Ngày sinh" type="number" id="txtNgày sinh"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="label" for="txtgender">Giới tính</td>
+
+            <td id="txtSt">
+                <input type="radio" name="gender"/> Nam
+                <input type="radio" name="gender"/> Nữ
+                <
+            </td>
+        </tr>
+        <tr>
+            <td class="label" for="txtAdd">Địa chỉ</td>
+            <td>
+                <textarea></textarea>
+            </td>
+
+        </tr>
+        <tr>
+            <td class="label" for="txtlớp">Lớp</td>
+            <td>
+                <select>
+                    <option>-Chọn lớp-</option>
+                    <option>A0322I1</option>
+                    <option>A0422I1</option>
+                    <option>A0522I1</option>
+                </select>
+            </td>
+
+        </tr>
+        <tr>
+            <td class="label" for="txtemail"><address>Email</address></td>
+            <td>
+                <input name="email" id="txtemail" type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="label" for="txtphone">Điện thoại</td>
+            <td>
+                <input name="phone" id="txtphone" type="number"/>
+            </td>
+        </tr>
+        <tr >
+            <td colspan="4" align="center">
+
+                <input type="submit" value="Đăng ký" class="ground">
+                <input type="reset" value="Nhập lại" class="ground">
+
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>
